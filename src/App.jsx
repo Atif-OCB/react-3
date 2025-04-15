@@ -57,7 +57,7 @@ function App() {
         {/* Anonymous function */}
         <button onClick={function() {
           handleClick();
-        }}>Click here</button>
+        }} className="bg-blue-500">Click here</button>
         {/* Anonymous arrow function */}
         <button onClick={() => {
           handleClick();
