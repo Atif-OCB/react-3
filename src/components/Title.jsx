@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Title = (props) => {
   const lang = props.lang;
   const isHidden = props.isHidden;
@@ -15,5 +17,11 @@ const Title = (props) => {
     </p>
   )
 }
+
+Title.propTypes = {
+  lang: PropTypes.string,
+  isHidden: PropTypes.bool,
+  myName: PropTypes.string,
+};
 
 export default Title
