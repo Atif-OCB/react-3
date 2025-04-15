@@ -12,9 +12,41 @@ function App() {
     alert("Hello")
   }
 
-  function handleSpecialClick(myNumber) {
-    console.log(myNumber);
-  }
+  // /**
+  //  * 4 functions pattern
+  //  */
+
+  // // 1. Pure function (for predictability)
+  // // - No parameter
+  // const pureFn1 = () => {
+  //   console.log("Pure function");
+  //   // - No return
+  // }
+
+  // pureFn1();
+
+  // // 2. Pure function (with return)
+  // // - No parameter
+  // const pureFn2 = () => {
+  //   // - Have return
+  //   return 5;
+  // }
+
+  // console.log(pureFn2());
+
+  // // 3. Non-pure function
+  // // - no params
+  // const nonPureFn1 = (myNum) => {
+  //   console.log(myNum);
+  //   // - no return
+  // }
+
+  // // 4. Non-pure function (with return)
+  // // - have params
+  // const nonPureFn2 = (myNum) => {
+  //   // - have return
+  //   return myNum;
+  // }
 
   return (
     <>
